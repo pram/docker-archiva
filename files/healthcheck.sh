@@ -7,8 +7,8 @@ set -e
 # endpoint available in archiva rest server
 #
 
-ORIGIN_BASE_URL=${PROXY_BASE_URL:-http://localhost:8080/}
-LOCAL_BASE_URL=http://localhost:8080/
+ORIGIN_BASE_URL=${PROXY_BASE_URL:-http://localhost:9080/}
+LOCAL_BASE_URL=http://localhost:9080/
 REST_PING_PATH=restServices/archivaServices/pingService/ping
 QUERY_PATH="${LOCAL_BASE_URL}${REST_PING_PATH}"
 

@@ -45,7 +45,7 @@ There are several ways to deploy an Apache Archiva environment with this image. 
 ## Using the `docker` command
 
 ```console
-docker run --name archiva -p 8080:8080 xetusoss/archiva
+docker run --name archiva -p 9080:9080 xetusoss/archiva
 ```
 
 ## Deploying with `docker-compose`

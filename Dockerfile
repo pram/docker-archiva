@@ -23,7 +23,7 @@ ADD files /tmp
 RUN chmod a+x /tmp/setup.sh && /tmp/setup.sh && rm /tmp/setup.sh
 
 # Standard web ports exposted
-EXPOSE 8080/tcp
+EXPOSE 9080/tcp
 
 HEALTHCHECK CMD /healthcheck.sh
 
